@@ -34,7 +34,7 @@ print(max)
 min_num = min(duplicate)
 print("**********SMALLEST NUMBER**************")
 print(min_num)
-print("**********SMALLEST NUMBER**************")
+print("**********SMALLESTNUMBER**************")
 
 #or
 
@@ -45,10 +45,10 @@ for i in range(1, len(duplicate)-1):
 
 print(min)
 
-
+print("***********************************")
 #pyramid assignment
-rows= int(input("Please enter the number of rows you would like: "))
-
+#rows= int(input("Please enter the number of rows you would like: "))
+rows = 9
 def pypart(rows):
     # FIRST FOR LOOP BELOW(outer) loop to handle number of rows #range is from 0 to n(number of rows required)
     for i in range(0,rows):
